@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <div class="container">
     <header class="header">
-        <h1 id="title" class="text-center">FreeCodeCamp Survey Form</h1>
+        <h1 id="title" class="text-center">Tribute Page Survey Form</h1>
         <p id="description" class="description text-center">
-            Thankyou for taking the time to help us improve.
+            Thankyou for taking the time to help me improve my Tribute Page.
         </p>
     </header>
     <form id="survey-form">
@@ -16,17 +16,62 @@
             <input type="index" name="email" class="form-control" placeholder="Enter Your Email" required/>
         </div>
         <div class="form-group">
-            <label id="number-label" for="number">Email</label>
-            <input type="index" name="number" class="form-control" placeholder="Enter the number" required/>
+            <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+            <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age" />
+        </div>
+
+        <div class="form-group">
+            <p>which option best describes your current role?</p>
+            <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select Current Role</option>
+            <option value="student">Student</option>
+            <option value="job">Full Time Job</option>
+            <option value="preferNo">Prefer not to say</option>
+            <option value="other">Others</option>
+            </select>
+        </div>
+
+        <div class='form-group'>
+            <p>How Was The User Experience</p>
+            <label>
+                <input
+                name="user-experience";
+                value="amazing";
+                type="radio";
+                class="input-radio";
+                checked;
+                />Amazing
+            </label>
+
+            <label>
+                <input
+                name="user-experience"
+                value="Poor";
+                type="radio";
+                class="[input-radio";
+                checked;
+                />Poor
+            </label>
+        </div>
+
+        <div class="form-group">
+            <p>Have You Visited Masjid Al-Aqsa</p>
+            <select name="mostlike" id="most-like" class="form-control" required>
+            <option disabled selected value>Select an option</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option> 
+            ></select>
         </div>
 
 
+        <div class="form-group">
+            <p>Any Comments or Suggestions?</p>
+            <textarea id="comments" ; class="input-textarea" ; name="comment" placeholder="Enter you comments here..."></textarea>
+        </div>
 
-
-
-
-
-
-
+        <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+                <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
     </form>
 </div>

@@ -1,5 +1,5 @@
 # FCC Tribute Page
-### Click here to visit the Webpage: https://codepen.io/shahaabmanzar/pen/qBOXdwJ
+### Click here to visit the Webpage: https://codepen.io/shahaabmanzar/full/qBOXdwJ
 
 ## User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
 
